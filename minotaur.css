@@ -1,0 +1,9 @@
+
+html {
+    font-size: 20px; 
+}
+
+blockquote {
+    color: navy;
+    border-left: 2px solid navy !important;
+}

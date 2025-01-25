@@ -1,0 +1,149 @@
+- name: 01-Theseus
+  title: "1. How Theseus got his first Minotauring job."
+  ru: "Как Тесей получил свою первую работу с минотаврами."
+  url: theseus
+
+- name: 02-T
+  title: "2. Mann. T. goes forth after the Minotaur."
+  ru: "Некто Т. отправляется за Минотавром"
+  url: t
+
+- name: 03-Blame
+  title: "3. I hate to blame Dædalus for everything"
+  ru: "Конечно не хотелось бы во всём винить Дедала"
+  url: blame
+
+- name: 04-Daedalus
+  title: "4. Dædalus."
+  ru: "Дедал"
+  url: daedalus
+
+- name: 05-Autosave
+  title: "5. Theseus. About the Maze."
+  ru: "Тесей. О Лабиринте."
+  url: autosave   
+
+- name: 06-Maze
+  title: "6. The Maze. Dædalus’ Achievement."
+  ru: "Лабиринт. Достижение Дедала."
+  url: maze   
+
+- name: 07-Ariadne
+  title: "7. Ariadne Telephones."
+  ru: "Ариадна звонит по телефону."
+  url: ariadne  
+
+- name: 08-Minotaur
+  title: "8. The Minotaur."
+  ru: "Минотавр"
+  url: minotaur 
+
+- name: 09-Maze
+  title: "9. The Maze Larger than the World."
+  ru: "Лабиринт больше чем мир"
+  url: world   
+
+- name: 10-Spool
+  title: "10. The Spool of Thread."
+  ru: "Клубок ниток"
+  url: spool
+
+- name: 11-Theobombus
+  title: "11. Theobombus, leading cybernetician"
+  ru: "Теобомбас, ведущий кибернетик"
+  url: theobombus
+
+- name: 12-Minos
+  title: "12. King Minos."
+  ru: "Царь Минос"
+  url: minos   
+
+- name: 13-Knossos
+  title: "13. How Knossos was Peopled."
+  ru: "Как был заселен Кносс"
+  url: knossos   
+
+- name: 14-Juxtapositions
+  title: "14. In the Maze of Juxtapositions."
+  ru: "В Лабиринте Противоположностей"
+  url: juxtapositions  
+
+- name: 15-Unicorn
+  title: "15. Sorrows of the Minotaur."
+  ru: "Печали Минотавра"
+  url: unicorn  
+
+- name: 16-Daedalus
+  title: "16. Although Minos is king, Dædalus"
+  ru: "Хоть Минос и царь, но Дедал"
+  url: theory  
+
+- name: 17-Hornectomy
+  title: "17. The Hornectomy."
+  ru: "Роготомия"
+  url: hornectomy
+
+- name: 18-Midas
+  title: "18. The Midas Touch."
+  ru: "Прикосновение Мидаса"
+  url: touch  
+
+- name: 19-Profit
+  title: "19. The Profit Motive."
+  ru: "Корыстные мотивы"
+  url: profit  
+
+- name: 20-Self-Pity-Plant
+  title: 20. The Attack of the Self Pity Plant.
+  ru: "Нападение Растения Самосожаления"
+  url: selfpity
+
+- name: 21-Minotaur-Midas
+  title: "21. Minotaur & Midas."
+  ru: "Минотавр и Мидас"
+  url: mm
+
+- name: 22-Causality
+  title: "22. Dædalus Dispenses with Causality."
+  ru: "Дедал отменяет причинно-следственную связь"
+  url: causality
+
+- name: 23-Chinese-Waiter
+  title: "23. The Chinese Waiter—Theseus & Minotaur."
+  ru: "Китайский официант. Тесей и Минотавр"
+  url: chinese
+
+- name: 24-Minerva
+  title: "24. Minotaur Meets Minerva."
+  ru: "Минотавр встречает Минерву"
+  url: minerva
+
+- name: 25-Alien
+  title: "25. The Alien Observer."
+  ru: "Инопланетный Агент"
+  url: alien
+
+- name: 26-Telephone
+  title: "26. The Telephone Booth."
+  ru: "Телефонная будка"
+  url: telephone  
+
+- name: 27-Phaedra
+  title: "27. Girl Named Phædra."
+  ru: "Девушка по имени Федра"
+  url: phaedra  
+
+- name: 28-Reclination
+  title: "28. Modalities of the Reclinational."
+  ru: "Модальности релаксационного."
+  url: reclination  
+
+- name: 29-Naxos
+  title: "29. Phone Call to Naxos."
+  ru: "Звонок на Наксос"
+  url: naxos 
+
+- name: 30-Falling
+  title: "30. Falling Through the Story."
+  ru: "Провалившись в историю"
+  url: falling  
