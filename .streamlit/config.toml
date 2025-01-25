@@ -1,0 +1,10 @@
+[theme]
+base="light"
+backgroundColor="#e5ddc7"
+font="serif"
+
+[server]
+enableStaticServing=true
+
+[client]
+toolbarMode="minimal"
