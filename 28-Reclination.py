@@ -54,7 +54,7 @@ So here is Theseus, lying on the bed, half asleep, listening to the muffled and 
 
 There was a loud buzzing sound. It came from Theseus’ knapsack, which he had thrown into a corner. It was the thread, of course, no other piece of equipment had so annoying a sound.
 
-> Раздался громкий жужжащий звук. Он исходил из рюкзака Тесея, брошенного в угол. Конечно же, это был моток ниток, никакое другое приспособление не издавало такого противного звука.
+> Раздался громкий жужжащий звук. Он исходил из рюкзака Тесея, брошенного в угол. Конечно же, это был клубок ниток, никакое другое приспособление не издавало такого противного звука.
 
 “What time is it?” Theseus asked.
 
@@ -62,7 +62,7 @@ There was a loud buzzing sound. It came from Theseus’ knapsack, which he had t
 
 “Time to go Minotauring,” the thread said.
 
-> «Время идти на минотавров», — ответил моток.
+> «Время идти на минотавров», — ответил клубок.
 
 Theseus sighed heavily, stubbed out his baguette, got out of bed. He strapped on his sword and armor, put on his knapsack, left a note for Phædra, went quietly out the door.
 

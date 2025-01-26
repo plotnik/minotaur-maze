@@ -35,7 +35,7 @@ The original problems between the three of them have been forgotten. Now the mem
 
 In the evenings, when the archaic red sun goes down into the sea, they sit at the kitchen table and play bridge. The spool of thread makes a fourth for the game. The thread is capable of splitting itself into seven different personalities, though this talent is rarely called for.
 
-> По вечерам, когда древнее красное солнце опускается в море, они сидят за кухонным столом и играют в бридж. Моток ниток выступает в качестве четвёртого игрока. Нить способна разделяться на семь различных личностей, хотя этот ее талант редко используется.
+> По вечерам, когда древнее красное солнце опускается в море, они сидят за кухонным столом и играют в бридж. Клубок ниток выступает в качестве четвёртого игрока. Нить способна разделяться на семь различных личностей, хотя этот ее талант редко используется.
 
 Ariadne seems to have quite a lot of children.
 
