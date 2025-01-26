@@ -20,13 +20,26 @@ But there’s a difficulty. The Minotaur doesn’t have the sizable fee that Asc
 
 st.write("---")
 
-col1, col2, col3 = st.columns(3)
+st.html("""
+<div class="flex-container">
+<div class="flex-column">
+    <a href="/theory">
+        <img class="responsive-img-200" src="app/static/16-Daedalus-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-left.png">
+    </a>                                  
+</div>                    
 
-with col1:
-    st.html('<div style="text-align: center"><a href="/theory"><img src="app/static/16-Daedalus-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
+<div class="flex-column">
+    <a href="/">
+        <img class="responsive-img-200" src="app/static/00-Minotaur-thumb.png"><br>
+    </a>                                  
+</div>                                       
 
-with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
-
-with col3:
-    st.html('<div style="text-align: center"><a href="/touch"><img src="app/static/18-Midas-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    
+<div class="flex-column">
+    <a href="/touch">
+        <img class="responsive-img-200" src="app/static/18-Midas-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-right.png">
+    </a>                                  
+</div>                  
+</div>
+""")

@@ -52,13 +52,26 @@ The road ended. Theseus walked through a thicket of thorny plants, not paying to
 
 st.write("---")
 
-col1, col2, col3 = st.columns(3)
+st.html("""
+<div class="flex-container">
+<div class="flex-column">
+    <a href="/knossos">
+        <img class="responsive-img-200" src="app/static/13-Knossos-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-left.png">
+    </a>                                  
+</div>                    
 
-with col1:
-    st.html('<div style="text-align: center"><a href="/knossos"><img src="app/static/13-Knossos-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
+<div class="flex-column">
+    <a href="/">
+        <img class="responsive-img-200" src="app/static/00-Minotaur-thumb.png"><br>
+    </a>                                  
+</div>                                       
 
-with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
-
-with col3:
-    st.html('<div style="text-align: center"><a href="/unicorn"><img src="app/static/15-Unicorn-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    
+<div class="flex-column">
+    <a href="/unicorn">
+        <img class="responsive-img-200" src="app/static/15-Unicorn-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-right.png">
+    </a>                                  
+</div>                  
+</div>
+""")

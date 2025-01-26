@@ -25,13 +25,26 @@ This matter of the Minotaur, for example. Many Theseuses came through these part
 
 st.write("---")
 
-col1, col2, col3 = st.columns(3)
+st.html("""
+<div class="flex-container">
+<div class="flex-column">
+    <a href="/minotaur">
+        <img class="responsive-img-200" src="app/static/08-Minotaur-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-left.png">
+    </a>                                  
+</div>                    
 
-with col1:
-    st.html('<div style="text-align: center"><a href="/minotaur"><img src="app/static/08-Minotaur-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
+<div class="flex-column">
+    <a href="/">
+        <img class="responsive-img-200" src="app/static/00-Minotaur-thumb.png"><br>
+    </a>                                  
+</div>                                       
 
-with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
-
-with col3:
-    st.html('<div style="text-align: center"><a href="/spool"><img src="app/static/10-Spool-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    
+<div class="flex-column">
+    <a href="/spool">
+        <img class="responsive-img-200" src="app/static/10-Spool-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-right.png">
+    </a>                                  
+</div>                  
+</div>
+""")

@@ -53,3 +53,16 @@ blockquote {
         width: 15px !important;
     }
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;  /* center columns horizontally */
+    align-items: flex-start;  /* top-align columns */
+    gap: 2rem;               /* space between columns */
+    flex-wrap: wrap;         /* on small screens, columns will wrap */
+}
+
+.flex-column {
+    text-align: center;
+    /* you can add width or min-width if desired */
+}

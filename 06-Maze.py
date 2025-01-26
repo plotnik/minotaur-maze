@@ -90,13 +90,26 @@ Yes, of course he’d like more coffee! She went off to get it and he leaned bac
 
 st.write("---")
 
-col1, col2, col3 = st.columns(3)
+st.html("""
+<div class="flex-container">
+<div class="flex-column">
+    <a href="/autosave">
+        <img class="responsive-img-200" src="app/static/05-Autosave-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-left.png">
+    </a>                                  
+</div>                    
 
-with col1:
-    st.html('<div style="text-align: center"><a href="/autosave"><img src="app/static/05-Autosave-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
+<div class="flex-column">
+    <a href="/">
+        <img class="responsive-img-200" src="app/static/00-Minotaur-thumb.png"><br>
+    </a>                                  
+</div>                                       
 
-with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
-
-with col3:
-    st.html('<div style="text-align: center"><a href="/ariadne"><img src="app/static/07-Ariadne-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    
+<div class="flex-column">
+    <a href="/ariadne">
+        <img class="responsive-img-200" src="app/static/07-Ariadne-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-right.png">
+    </a>                                  
+</div>                  
+</div>
+""")

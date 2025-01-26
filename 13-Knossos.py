@@ -25,13 +25,26 @@ As for the kidnapped Parisians in Knossos, they adjusted to their new situation 
 
 st.write("---")
 
-col1, col2, col3 = st.columns(3)
+st.html("""
+<div class="flex-container">
+<div class="flex-column">
+    <a href="/minos">
+        <img class="responsive-img-200" src="app/static/12-Minos-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-left.png">
+    </a>                                  
+</div>                    
 
-with col1:
-    st.html('<div style="text-align: center"><a href="/minos"><img src="app/static/12-Minos-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
+<div class="flex-column">
+    <a href="/">
+        <img class="responsive-img-200" src="app/static/00-Minotaur-thumb.png"><br>
+    </a>                                  
+</div>                                       
 
-with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
-
-with col3:
-    st.html('<div style="text-align: center"><a href="/juxtapositions"><img src="app/static/14-Juxtapositions-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    
+<div class="flex-column">
+    <a href="/juxtapositions">
+        <img class="responsive-img-200" src="app/static/14-Juxtapositions-thumb.png"><br>
+        <img class="responsive-img-200" src="app/static/sword-right.png">
+    </a>                                  
+</div>                  
+</div>
+""")
