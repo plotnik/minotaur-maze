@@ -72,26 +72,61 @@ for i, page in enumerate(pages):
     source += '\nst.write("---")\n'
         
     source += '\ncol1, col2, col3 = st.columns(3)\n'
+    # source += textwrap.dedent("""
+    #     st.html('<table style="width:100%"><tr>')
+    #     """)                      
 
     if prev_page != None:
         prev_name = prev_page['name']
         prev_url = prev_page['url']
         source += textwrap.dedent(f'''
             with col1:
-                st.html('<div style="text-align: center"><a href="/{prev_url}"><img src="app/static/{prev_name}-thumb.png" width=200><br><img src="app/static/sword-left.png" width=200></a></div>')  
+                st.html('<div style="text-align: center"><a href="/{prev_url}"><img src="app/static/{prev_name}-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
             ''')
+        # source += textwrap.dedent(f'''
+        #     st.html("""                      
+        #     <td style="text-align:center; vertical-align:top;">
+        #         <a href="/{prev_url}">
+        #             <img class="responsive-img-200" src="app/static/{prev_name}-thumb.png"><br>
+        #             <img class="responsive-img-200" src="app/static/sword-left.png">
+        #         </a>                                  
+        #     </td> 
+        #     """)                     
+        #     ''')
     source += textwrap.dedent(f'''
         with col2:
-            st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" width=250></a></div>')  
-        ''')        
+            st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
+        ''')     
+    # source += textwrap.dedent(f'''
+    #     st.html("""                           
+    #     <td style="text-align:center; vertical-align:top;">
+    #         <a href="/">
+    #             <img class="responsive-img-200" src="app/static/00-Minotaur-thumb.png"><br>
+    #         </a>                                  
+    #     </td>  
+    #     """)                                           
+    #     ''')   
     if next_page != None:
         next_name = next_page['name']
         next_url = next_page['url']
         source += textwrap.dedent(f'''
             with col3:
-                st.html('<div style="text-align: center"><a href="/{next_url}"><img src="app/static/{next_name}-thumb.png" width=200><br><img src="app/static/sword-right.png" width=200></a></div>')    
+                st.html('<div style="text-align: center"><a href="/{next_url}"><img src="app/static/{next_name}-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    
             ''')
-        
+        # source += textwrap.dedent(f'''
+        #     st.html("""                      
+        #     <td style="text-align:center; vertical-align:top;">
+        #         <a href="/{next_url}">
+        #             <img class="responsive-img-200" src="app/static/{next_name}-thumb.png"><br>
+        #             <img class="responsive-img-200" src="app/static/sword-right.png">
+        #         </a>                                  
+        #     </td>
+        #     """)                      
+        #     ''')
+    # source += textwrap.dedent("""
+    #     st.html('</tr></table>')
+    #     """)
+                        
     with open(name + ".py", "w", encoding="utf-8") as fout:
         fout.write(source)
   
@@ -149,10 +184,10 @@ for page in pages:
         """
 
         with col1:
-            st.html('<div style="text-align: center"><a href="/{url}"><img src="app/static/{name}-thumb.png" width=150></a></div>') 
+            st.html('<div style="text-align: center"><a href="/{url}"><img src="app/static/{name}-thumb.png" class="responsive-img-200"></a></div>') 
             #st.image("static/{name}-thumb.png", width=300)
         with col2:
-            st.page_link("{name}.py", label=label)  
+            st.page_link("{name}.py", label=label, use_container_width=True)  
         ''')
     
 with open("00-Minotaur.py", "w", encoding="utf-8") as fout:

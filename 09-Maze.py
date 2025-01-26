@@ -5,8 +5,6 @@ st.header("9. The Maze Larger than the World.")
 st.image("img/09-Maze.webp", use_container_width=True)
 st.write("> **Лабиринт больше чем мир**")
 st.write("""
-> **Лабиринт больше чем мир**
-
 For a long time it was impossible to be sure of anything. That was because indeterminacy ruled the maze world, and nobody liked it but Dædalus. The inhabitants detested it. Dædalus, they said, you have gone too far. No good will come of this, you’re letting yourself be seduced by a mere proposition. Come, be reasonable, lay down a few hard facts, promulgate some operating instructions; at least give us some defaults. We need a little order around here. A little order is all we ask for, Dædalus; it keeps things nice, please, just for us, okay?
 
 > Долгое время ни в чем нельзя было быть уверенным. Это происходило потому, что миром лабиринта правил [принцип неопределенности](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BD%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8?wprov=sfla1), и никто, кроме Дедала, этому не радовался. Жители этот принцип ненавидели. «Дедал, — говорили они, — ты зашел слишком далеко. Из этого ничего хорошего не выйдет, ты позволяешь себе соблазниться простой гипотезой. Будь благоразумен, задай несколько твердых фактов, издай какие-то инструкции; хотя бы дай нам несколько стандартов. Нам нужно немного порядка. Немного порядка — это все, о чем мы просим, Дедал; это делает жизнь лучше, пожалуйста, только для нас, хорошо?»
@@ -30,10 +28,10 @@ st.write("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.html('<div style="text-align: center"><a href="/minotaur"><img src="app/static/08-Minotaur-thumb.png" width=200><br><img src="app/static/sword-left.png" width=200></a></div>')  
+    st.html('<div style="text-align: center"><a href="/minotaur"><img src="app/static/08-Minotaur-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
 
 with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" width=250></a></div>')  
+    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
 
 with col3:
-    st.html('<div style="text-align: center"><a href="/spool"><img src="app/static/10-Spool-thumb.png" width=200><br><img src="app/static/sword-right.png" width=200></a></div>')    
+    st.html('<div style="text-align: center"><a href="/spool"><img src="app/static/10-Spool-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    

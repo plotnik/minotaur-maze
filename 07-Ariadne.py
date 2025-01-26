@@ -54,10 +54,10 @@ st.write("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.html('<div style="text-align: center"><a href="/maze"><img src="app/static/06-Maze-thumb.png" width=200><br><img src="app/static/sword-left.png" width=200></a></div>')  
+    st.html('<div style="text-align: center"><a href="/maze"><img src="app/static/06-Maze-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-left.png" class="responsive-img-200"></a></div>')  
 
 with col2:
-    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" width=250></a></div>')  
+    st.html('<div style="text-align: center"><a href="/"><img src="app/static/00-Minotaur-thumb.png" class="responsive-img-250"></a></div>')  
 
 with col3:
-    st.html('<div style="text-align: center"><a href="/minotaur"><img src="app/static/08-Minotaur-thumb.png" width=200><br><img src="app/static/sword-right.png" width=200></a></div>')    
+    st.html('<div style="text-align: center"><a href="/minotaur"><img src="app/static/08-Minotaur-thumb.png" class="responsive-img-200"><br><img src="app/static/sword-right.png" class="responsive-img-200"></a></div>')    

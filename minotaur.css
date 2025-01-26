@@ -7,3 +7,49 @@ blockquote {
     color: navy;
     border-left: 2px solid navy !important;
 }
+
+.responsive-img-200 {
+    width: 200px;
+}
+.responsive-img-250 {
+    width: 250px;
+}
+.responsive-img-150 {
+    width: 150px;
+}
+
+@media (max-width: 1200px) {
+    .responsive-img-200 {
+        width: 100px !important;
+    }
+    .responsive-img-250 {
+        width: 125px !important;
+    }
+    .responsive-img-150 {
+        width: 75px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .responsive-img-200 {
+        width: 50px !important;
+    }
+    .responsive-img-250 {
+        width: 60px !important;
+    }
+    .responsive-img-150 {
+        width: 30px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .responsive-img-200 {
+        width: 25px !important;
+    }
+    .responsive-img-250 {
+        width: 30px !important;
+    }
+    .responsive-img-150 {
+        width: 15px !important;
+    }
+}
